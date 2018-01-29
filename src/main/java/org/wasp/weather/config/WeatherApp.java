@@ -24,15 +24,13 @@ public class WeatherApp implements CommandLineRunner {
     public RestTemplate restTemplate(RestTemplateBuilder restTemplateBuilder) {
         return restTemplateBuilder.build();
     }
-
-
+    
     private static final Logger logger = LoggerFactory.getLogger(WeatherApp.class);
 
     public static void main(String[] args) {
         SpringApplication.run(WeatherApp.class);
     }
-
-
+    
     @Override
     public void run(String... args) throws Exception {
         logger.info("The weather today is...");

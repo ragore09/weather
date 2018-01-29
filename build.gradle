@@ -26,10 +26,16 @@ repositories {
     mavenCentral()
 }
 
+bootRun {
+    // support passing -Dsystem.property=value to bootRun task
+    systemProperties = System.properties
+}
+
 dependencies {
     compile("org.springframework.boot:spring-boot-starter")
     compile("org.springframework:spring-web")
     compile("com.fasterxml.jackson.core:jackson-databind")
     compile("org.springframework.boot:spring-boot-configuration-processor")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
