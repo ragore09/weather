@@ -36,8 +36,8 @@ public class WeatherApp implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         logger.info("The weather today is...");
-        double one = 122;
-        double two = 121;
+        double one = 46.806048;
+        double two = -71.2442881;
         logger.info(weatherService.getCurrentWeather(one, two).toString());
     }
 }
