@@ -1,5 +1,5 @@
 {
-  "name": "So How's the Weather?",
+  "name": "weather-app",
   "version": "0.1.0",
   "description": "Basic app to retrieve user's location and displaying the weather ",
   "repository": {

@@ -1,8 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/main/js/app.js',
-    devtool: 'sourcemaps',
+    entry: './src/main/js/weather.app.js',
     cache: true,
     debug: true,
     output: {
