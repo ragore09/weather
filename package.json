@@ -1,24 +1,17 @@
 {
-  "name": "spring-data-rest-and-reactjs",
+  "name": "So How's the Weather?",
   "version": "0.1.0",
-  "description": "Demo of ReactJS + Spring Data REST",
+  "description": "Basic app to retrieve user's location and displaying the weather ",
   "repository": {
     "type": "git",
-    "url": "git@github.com:spring-guides/tut-react-and-spring-data-rest.git"
+    "url": "git@github.com:ragore09/weather.git"
   },
   "keywords": [
     "rest",
-    "hateoas",
     "spring",
-    "data",
     "react"
   ],
-  "author": "Greg L. Turnquist",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/spring-guides/tut-react-and-spring-data-rest/issues"
-  },
-  "homepage": "https://github.com/spring-guides/tut-react-and-spring-data-rest",
+  "author": "Raul Gonzalez",
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",

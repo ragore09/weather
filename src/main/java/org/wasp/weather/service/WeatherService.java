@@ -1,5 +1,6 @@
 package org.wasp.weather.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.wasp.weather.config.OpenWeatherProperties;
@@ -11,6 +12,7 @@ public class WeatherService {
     private RestTemplate restTemplate;
     private OpenWeatherProperties openWeatherProperties;
     
+    @Autowired
     public WeatherService(RestTemplate restTemplate, OpenWeatherProperties openWeatherProperties) {
         this.restTemplate = restTemplate;
         this.openWeatherProperties = openWeatherProperties;
