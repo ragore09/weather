@@ -4,9 +4,14 @@
 *.iws
 .idea/
 
+# VS Files
+*.project
+/bin/
+
 # Java Files
 # Compiled class file
 *.class
+*.classpath
 
 # Log file
 *.log
