@@ -30,11 +30,7 @@ public class HomeController {
     @RequestMapping(value = "/getLocation")
     public @ResponseBody Status getLocation(@RequestParam("lat") Double latitude, 
                                             @RequestParam("lon") Double longitude) {
-        logger.info("im here");
-        Status status = weatherService.getCurrentWeather(latitude, longitude);
-        logger.info(status.toString());
-        return status;
-//        return "";
+        return weatherService.getCurrentWeather(latitude, longitude);
     }
     
 }
