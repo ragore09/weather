@@ -7,7 +7,7 @@ This is an app for getting users's location and showing weather info using Googl
 ### Pre-requisites
  - Yarn
  - Gradle
- - [OpenWeather API Key] (http://openweathermap.org/api)
+ - [OpenWeather API Key](http://openweathermap.org/api)
 
 ### Setup
 
