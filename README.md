@@ -11,11 +11,22 @@ This is an app for getting users's location and showing weather info using Googl
 
 ### Setup
 
-- Once you have installed Yarn and Gradle run:
+- Once Yarn and Gradle are set up, `webpack` must be installed
+```
+yarn global add webpack
+```
+- To install project dependencies, inside project directory run
+```
+yarn install
+```
+- To generate `bundle.js` file, inside project directory run
 ```
 webpack
 ```
-
+- To compile java modifications, run
+```
+gradle build
+```
 ### Run
 1. Run `gradle bootRun -Dopenweather.appKey=yourAPIKey`
 
